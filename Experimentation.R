@@ -15,6 +15,7 @@ print("Adding random ifelse after this")
 a=0
 a<- ifelse(a==0,a+1,a+0)
 print(a)
+print(a+a)
 
 
 
