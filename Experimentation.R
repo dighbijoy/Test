@@ -9,3 +9,4 @@ Expenses<- Expenses[!is.na(Expenses$Comments),]
 install.packages("officer")
 library("officer")
 read_docx()
+print("This is just for fun")
