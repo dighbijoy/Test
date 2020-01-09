@@ -1,0 +1,11 @@
+install.packages("RStata")
+install.packages("Rcmdr")
+library("Rcmdr")
+library("RStata")
+library("tidyverse")
+Expenses<- Expenses_Sheet
+Expenses$...10 <- NULL
+Expenses<- Expenses[!is.na(Expenses$Comments),]
+install.packages("officer")
+library("officer")
+read_docx()
