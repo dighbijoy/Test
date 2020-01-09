@@ -11,3 +11,6 @@ library("officer")
 read_docx()
 print("This is just for fun")
 print("Testing the test")
+a=0
+ifelse(a==0,a+1,a+0)
+
